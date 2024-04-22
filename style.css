@@ -1,0 +1,32 @@
+body {
+    background-color: 	#FAF9F6 !important;
+  }
+
+.platypi-heading {
+font-family: "Platypi", serif;
+font-optical-sizing: auto;
+font-weight: 600;
+font-style: normal;
+}
+  
+.platypi-text {
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+      
+
+.rotate {
+    animation: rotation 4s infinite linear;
+    }
+
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+    }
